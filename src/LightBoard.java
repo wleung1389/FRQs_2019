@@ -1,5 +1,5 @@
 public class LightBoard {
-    private boolean[][] lights;
+    public boolean[][] lights;
 
     public LightBoard(int numRows, int numCols) {
         lights = new boolean[numRows][numCols];
